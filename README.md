@@ -1,1 +1,2 @@
 # odin-landingPage
+In this project we will build a landing page from scratch using what we learnded until now, this includes using html elements such as div, img, p, ul, and more. Also we will put in practice all we learned about flexbox.
