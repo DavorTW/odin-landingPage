@@ -17,7 +17,7 @@ a{
 }
 
 .container{
-    width: 1020px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -36,11 +36,52 @@ a{
 .nav {
    display: flex;
    gap: 30px;
-   font-size: 18px;
 }
 
 .hero{
-    height: 350px;
     display: flex;
+    justify-content: space-between;
+    align-items:stretch;
+    gap: 40px;
+    margin: 90px 0;
 }
 
+
+.hero-content{
+    flex: 1;
+}
+
+.hero-image{
+    width: 300px;
+    height: 200px;
+    background-color: #e5e7eb;
+    flex: 1;
+}
+
+.hero-title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.nav, .hero-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-text{
+    margin-bottom: 12px;
+}
+
+.primary-button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.primary-button:hover{
+    cursor: pointer;
+}
